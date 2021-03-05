@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../特效蘑菇/css/index.css"/>
+		<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div class="cont">
+			<div class="title">
+				<h1>Mushroom Forest</h1>
+				<p></p>
+			</div>
+			<h2>click the mushroom on the ground</h2>
+			<div class="mogu">
+				<img src="../特效蘑菇/img/1.png" class="a1" onclick="show(1)">
+				<img src="../特效蘑菇/img/2.png" class="a2" onclick="show(2)" >
+				<img src="../特效蘑菇/img/3.png" class="a3" onclick="" >
+				<img src="../特效蘑菇/img/4.png" class="a4" onclick="show(4)" >
+				<img src="../特效蘑菇/img/5.png" class="a5" onclick="show(5)" >
+				<img src="../特效蘑菇/img/6.png" class="a6" onclick="show(6)" >
+				<img src="../特效蘑菇/img/7.png" class="a7" onclick="show(7)" >
+				<img src="../特效蘑菇/img/8.png" class="a8" onclick="show(3)" >
+				<img src="../特效蘑菇/img/9.png" class="a9" onclick="show(8)" >
+				
+				<img src="../特效蘑菇/img/13.gif" class="c1 none"  >
+				<img src="../特效蘑菇/img/12.gif" class="c2 none" >
+				<img src="../特效蘑菇/img/15.gif" class="c3 none" >
+				<img src="../特效蘑菇/img/14.gif" class="c4 none" >
+				<img src="../特效蘑菇/img/16.gif" class="c5 none" >
+				<img src="../特效蘑菇/img/17.gif" class="c6 none" >
+				<img src="../特效蘑菇/img/18.gif" class="c7 none" >
+				<img src="../特效蘑菇/img/19.gif" class="c8 none" >
+				
+			</div>
+			<video src="../特效蘑菇/img/background.mp4" loop="loop" autoplay="autoplay" muted="muted"></video>
+		</div>
+		<h2>Back to Homepage</h2>
+		<script>
+			function show(n){
+			
+					var c1=document.getElementsByClassName('c'+n)[0]
+					c1.classList.remove('none')
+					setTimeout(function(){
+						c1.classList.add('none')
+					},3000)
+				
+			}
+		</script>
+	</body>
+</html>
