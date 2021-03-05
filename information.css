@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-image: url("background.jpg");
+	background-size: 85%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-color:#5A0BA2;
+	background-position: center; 
+	background-blend-mode:luminosity;
+	height: 500px;
+	margin: 10px;
+	padding: 100px;
+	padding-right: 600px;
+	font-family: 'Roboto Slab', serif;
+	
+}
+
+h1{
+	align-content: center;
+	font-size: 35pt;
+	color: lightskyblue;
+	font-weight: 700;
+	position:inherit;
+
+	
+
+	
+}
+h3{ align-content: center;
+	color:lightskyblue;
+	font-weight: 600;
+	
+}
+h2{
+	color:powderblue;
+	font-weight: 600;
+	padding-top: 30px;
+	fomt-size: 20pt;
+}
+h4{
+	color:cornflowerblue;
+	font-weight: 300;
+}
+.span{
+	font-color:#FC5BB8;
+	font-weight: 800;
+	position: absolute;
+	width: 40%; 
+	top: -5%;
+	font-size: 50pt;
+}
+p{
+	color:white;
+	font-weight: 500;
+	font-size: 12pt;
+	line-height: 22pt;
+	
+}
+.button{
+	width: 100px;
+	hieght:30px;
+	
+}
